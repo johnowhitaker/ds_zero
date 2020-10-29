@@ -1,6 +1,7 @@
 {
   "ds_zero": {
     "Overview": "/",
-    "DS Zero": "core.html"
+    "DS Zero Core": "core.html",
+    "Getting used to our environment": "Environment.html"
   }
 }

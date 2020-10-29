@@ -10,8 +10,11 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: DS Zero
+      title: DS Zero Core
       url: core.html
+    - output: web,pdf
+      title: Getting used to our environment
+      url: Environment.html
     output: web
     title: ds_zero
   output: web
