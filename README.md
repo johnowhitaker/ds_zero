@@ -16,20 +16,10 @@ Fill me in please! Don't forget code examples:
 1+1
 ```
 
-
-
-
-    2
-
-
-
 ```python
 example_function(15) # Defined in the core notebook
 ```
 
-
-
-
-    20
-
-
+```python
+example_function2(15) # Defined in the core notebook
+```
