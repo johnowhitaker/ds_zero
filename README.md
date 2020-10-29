@@ -1,4 +1,6 @@
-# nbdev template
+# DS_ZERO
 
-Use this template to more easily create your nbdev project.
+Work in progress: pputting together some useful resources for a super-quick DS intro.
+
+
 
