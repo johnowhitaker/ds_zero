@@ -2,24 +2,11 @@
 > A Lightning Introduction to some basic Data Science tools and concepts.
 
 
-This file will become your README and also the index of your documentation.
+I'm working with some cool people at the moment, and we've decided to try and learn some Data Science together. This project is going to end up being some combination of:
+- A short 'course' with some learning material and lots of exercises
+- A collection of links to other great resources
+- One or more 'suggested learning paths' - routes we find helpful for others wanting to learn and not sure where to start.
 
-## Install
+We're all pretty busy, so I'm going to try and keep things as minimal as possible. 
 
-It's not set up yet, but eventually this will be installed with `pip install your_project_name`
-
-## How to use
-
-Fill me in please! Don't forget code examples:
-
-```python
-1+1
-```
-
-```python
-example_function(15) # Defined in the core notebook
-```
-
-```python
-example_function2(15) # Defined in the core notebook
-```
+This whole thing is built with NBDev. It should be up on https://johnowhitaker.github.io/ds_zero/, all built in Jupyter Notebooks.
