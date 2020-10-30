@@ -33,7 +33,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Getting-used-to-our-environment">Getting used to our environment<a class="anchor-link" href="#Getting-used-to-our-environment"> </a></h1><p>Setting up everything you need to do data science on your computer isn't very hard, but it's easy to hit errors that suck up your time. So, we're going to leave it as a challenge for another day and use an environment that is already all set up for us: Google Colab.</p>
 <p>For each notebook in this course, you can use the 'Open in Colab' button to open a copy of the notebook which you can then run, edit and explore. Try it out with this one, and make sure to save a copy to your drive so you don't loose your changes and notes.</p>
-<p><a href="https://colab.research.google.com/github/johnowhitaker/ds_zero/blob/master/01_Environment.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a></p>
+<p><a href="https://colab.research.google.com/github/johnowhitaker/ds_zero/blob/master/01_Meet_The_Tools.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab"></a></p>
 <p>You can think of Google Colab as a temporary cloud computer which we can use to run our code. In the top right, you'll see an option to 'Connect' (it will connect by default if you try to run some code). On the left, you can access the files pane to view what files are available, upload your own or connect to Google Drive (which will appear as another folder).</p>
 <p>So how do we actually run code on this 'computer'? And what is this Jupyter thing we keep mentioning?</p>
 
@@ -42,7 +42,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Jupyter-Notebooks">Jupyter Notebooks<a class="anchor-link" href="#Jupyter-Notebooks"> </a></h1><p>{% include image.html max-width="300" file="<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/883px-Jupyter_logo.svg.png">https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/883px-Jupyter_logo.svg.png</a>" %}</p>
+<h1 id="Jupyter-Notebooks">Jupyter Notebooks<a class="anchor-link" href="#Jupyter-Notebooks"> </a></h1><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/207px-Jupyter_logo.svg.png" alt=""></p>
 <p>If you've done some coding before, you might be used to editing a code file ('my_code.py') in a fancy IDE or text editor. You make changes, save, run somewhere and see the final output. This is fine for some use-cases, but we want to <em>interact</em> with out data, making tweaks, figuring things out as we go and trying things out. For this <b>Exploratory Programming</b>, Jupyter notebooks are an amazing tool. Each 'cell' can contain either text (like this) or code (like the next cell). You can run a cell with the shortcut Shift-Enter, and the output of that cell is shown immediately after the code that generated it:</p>
 
 </div>
@@ -223,7 +223,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Libraries">Libraries<a class="anchor-link" href="#Libraries"> </a></h1><p>{% include image.html max-width="400" file="<a href="https://imgs.xkcd.com/comics/python.png">https://imgs.xkcd.com/comics/python.png</a>" %}</p>
+<h1 id="Libraries">Libraries<a class="anchor-link" href="#Libraries"> </a></h1><p><img src="https://imgs.xkcd.com/comics/python.png" alt=""></p>
 <p>A lot of useful functionality isn't included in the standard python setup. Instead, we use libraries to extend the base python functionality in different ways. Python has a library for pretty much everything.</p>
 <p>Let's meet the ones we'll be using in this course...</p>
 
@@ -232,7 +232,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Numpy">Numpy<a class="anchor-link" href="#Numpy"> </a></h1><p>{% include image.html max-width="300" file="<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png">https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png</a>" %}</p>
+<h1 id="Numpy">Numpy<a class="anchor-link" href="#Numpy"> </a></h1><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/320px-NumPy_logo_2020.svg.png" alt=""></p>
 <p>Numpy is a python library that makes it easier and faster to do certain kinds of numerical operations. Many of the other libraries we'll be using are built on top of numpy. By convention, we import it with the alias 'np' - useful if you're needing to use it a lot. We won't learn too much about it until we need to, but here are some quick examples of a few ways it comes in useful</p>
 
 </div>
@@ -467,7 +467,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Pandas">Pandas<a class="anchor-link" href="#Pandas"> </a></h1><p>{% include image.html max-width="300" file="<a href="https://miro.medium.com/max/3006/1*KdxlBR9P3mDp9JZ_URMdYQ.jpeg">https://miro.medium.com/max/3006/1*KdxlBR9P3mDp9JZ_URMdYQ.jpeg</a>" %}</p>
+<h1 id="Pandas">Pandas<a class="anchor-link" href="#Pandas"> </a></h1><p><img src="https://miro.medium.com/max/3006/1*KdxlBR9P3mDp9JZ_URMdYQ.jpeg" alt=""></p>
 <p>Pandas will be the primary way we interact with and manipulate data. It's designed for 'tabular' data - think an Excel spreadsheet or a data table.</p>
 <p>There is a great introduction to pandas here: <a href="https://lewtun.github.io/dslectures/lesson01_intro-to-pandas/">https://lewtun.github.io/dslectures/lesson01_intro-to-pandas/</a> - refer to this when you don't know how to do one of these exercises.</p>
 
@@ -1160,7 +1160,8 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Matplotlib">Matplotlib<a class="anchor-link" href="#Matplotlib"> </a></h1><p>Pandas built-in plots are nice for quick visuals, but if you want more control you'll likely end up running into the big name in python plotting: matplotlib.</p>
+<h1 id="Matplotlib">Matplotlib<a class="anchor-link" href="#Matplotlib"> </a></h1><p><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt=""></p>
+<p>Pandas built-in plots are nice for quick visuals, but if you want more control you'll likely end up running into the big name in python plotting: matplotlib.</p>
 <p>It gives us control over everything we could want, but it can also be a little bit confusing. Don't worry - the secret is that someone else has already tried to make the same kind of plot as you, and you can find TONS of examples online.</p>
 <p>We'll show a few demos here, but if you ever want to try a complicated matplotlib thing yourself I suggest taking a look at the <a href="https://colab.research.google.com/drive/1Pfjg84GCoiT_7NNm0tQufu3dIwKduOIR?usp=sharing">Ultimate matplotlib notebook</a> for copy-paste-able code for pretty much any advanced plotting option you'll ever need :)</p>
 
@@ -1305,7 +1306,8 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Scikit-learn">Scikit learn<a class="anchor-link" href="#Scikit-learn"> </a></h1><p>Scikit-learn is a great resource for all things machine learning. Their docs (<a href="https://scikit-learn.org/stable/">https://scikit-learn.org/stable/</a>) are excellent and there are tons of examples for every method or algorithm.</p>
+<h1 id="Scikit-learn">Scikit-learn<a class="anchor-link" href="#Scikit-learn"> </a></h1><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/640px-Scikit_learn_logo_small.svg.png" alt=""></p>
+<p>Scikit-learn is a great resource for all things machine learning. Their docs (<a href="https://scikit-learn.org/stable/">https://scikit-learn.org/stable/</a>) are excellent and there are tons of examples for every method or algorithm.</p>
 <p>For demo purposes, here's fitting a classification model on the dataset we've been playing with.</p>
 <p>NOTE: We'll explain these concepts later - this is JUST a demo to show a tiny snippit of what's possible :)</p>
 
@@ -1583,7 +1585,8 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exercises">Exercises<a class="anchor-link" href="#Exercises"> </a></h1><p>This section has some questions and exercises to help you get a little more familiar with these tools. Play around, add cells for your own experiments and see what you can do!</p>
+<h1 id="Exercises">Exercises<a class="anchor-link" href="#Exercises"> </a></h1><p><img src="https://i.makeagif.com/media/8-08-2017/nxo_IQ.gif" alt=""></p>
+<p>This section has some questions and exercises to help you get a little more familiar with these tools. Play around, add cells for your own experiments and see what you can do!</p>
 <p>1) Load in the data from the following classic dataset: <a href="https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv">https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv</a></p>
 <p>2) Look up the 'boston housing dataset' to find out more about where this comes from.</p>
 <p>3) Explore the data. Is price (MEDV) correlated with anything interesting?</p>
