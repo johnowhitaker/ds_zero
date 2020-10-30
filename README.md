@@ -29,11 +29,19 @@ At the end of lesson 1 we saw a machine learning model being created, trained an
 
 ##### Lesson 3 - Supervised Learning
 
+With some basics covered, let's revisit the machine learning example from lesson one and build on that, exploring some of the different kinds of tasks you may encounter, playing with different methods and learning how to choose the best tool for the job.
+
 ##### Lesson 4 - Entering Competitions (Practice)
+
+Putting the lessons into practice, and learning some extra tips to make our models better.
 
 ##### Lesson 5 - Deep Learning: Image Classification
 
+Image Classification is one of the most popular applications of deep learning. This lesson shows how easy it can be, and gives a starting point for going deeper into this topic.
+
 ##### Lesson 6 - Where Next?
+
+There are many topics not covered here - where would one go to lern more? A collection of resources and suggestions, as well as some final project ideas
 
 ### Resources & References
 
