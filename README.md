@@ -19,9 +19,13 @@ Data Science is
 
 ##### Lesson 1 - Meet the Tools
 
+In this lesson, we do a lightning overview of some of the libraries we'll use in the next three or four lessons. You'll load your first dataset with pandas, make some pretty plots with matplotlib and get an early preview of machine learning in action. 
 
+At the bottom of the notebook are some exercises - finish those and you'll be good and ready for lesson 2.
 
 ##### Lesson 2 - Data Cleaning & Visualization
+
+At the end of lesson 1 we saw a machine learning model being created, trained and used to make predictions... in three lines of code. We don't understand that code yet, but it hints at a secret: the machine learning bit is often the easy part. So for this lesson, we look more closely at the steps that come before the modelling: data cleaning and exploration.
 
 ##### Lesson 3 - Supervised Learning
 
