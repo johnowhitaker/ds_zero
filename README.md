@@ -17,11 +17,26 @@ Data Science is
 
 ### The Plan
 
-Lessons
+##### Lesson 1 - Meet the Tools
+
+
+
+##### Lesson 2 - Data Cleaning & Visualization
+
+##### Lesson 3 - Supervised Learning
+
+##### Lesson 4 - Entering Competitions (Practice)
+
+##### Lesson 5 - Deep Learning: Image Classification
+
+##### Lesson 6 - Where Next?
 
 ### Resources & References
 
 - Colab tips and tricks: https://amitness.com/2020/06/google-colaboratory-tips/
+- Lewis Tunstall's DS Lecture Notes: https://lewtun.github.io/dslectures/
+- The ultimate Matplotlib notebook: https://colab.research.google.com/drive/1Pfjg84GCoiT_7NNm0tQufu3dIwKduOIR?usp=sharing 
+- Fastai course: http://course.fast.ai/
 
 
 We'll keep this section updated as we add more content.
