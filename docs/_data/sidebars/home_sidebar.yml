@@ -13,7 +13,7 @@ entries:
       title: DS Zero Core
       url: core.html
     - output: web,pdf
-      title: 'Lesson 1: Meet The Tools'
+      title: Lesson 1 - Meet The Tools
       url: Meet_The_Tools.html
     output: web
     title: ds_zero
