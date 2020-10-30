@@ -197,6 +197,23 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>As you'll see later in this notebook, the output from a cell can be much more than just text!</p>
@@ -1124,6 +1141,23 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Matplotlib">Matplotlib<a class="anchor-link" href="#Matplotlib"> </a></h1><p>Pandas built-in plots are nice for quick visuals, but if you want more control you'll likely end up running into the big name in python plotting: matplotlib.</p>
@@ -1353,6 +1387,13 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>What is our accuracy?</p>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -1386,6 +1427,13 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Accuracy score is the default for classification models, so we can do this as an alternative to the above:</p>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -1393,7 +1441,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span> <span class="c1"># to make predictions and evaluate in one step</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -1419,6 +1467,13 @@ nb_path: "01_Meet_The_Tools.ipynb"
 </div>
     {% endraw %}
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can pass a set of inputs through .predict_proba to see the predicted probabilities. What happens when you change different valies?</p>
+
+</div>
+</div>
+</div>
     {% raw %}
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -1426,7 +1481,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Remind ourselves what the columns are</span>
 </pre></div>
 
     </div>
@@ -1500,8 +1555,7 @@ nb_path: "01_Meet_The_Tools.ipynb"
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># How do these change as you tweak inputs?</span>
-<span class="n">model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">([[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">58</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="mi">190</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mf">0.43</span><span class="p">,</span> <span class="mi">43</span><span class="p">]])</span> <span class="c1"># Exercise: play with these values and observe</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">([[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">58</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="mi">190</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mf">0.43</span><span class="p">,</span> <span class="mi">43</span><span class="p">]])</span> <span class="c1">### Exercise: play with these values and observe</span>
 </pre></div>
 
     </div>
