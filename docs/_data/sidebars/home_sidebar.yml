@@ -15,6 +15,9 @@ entries:
     - output: web,pdf
       title: Lesson 1 - Meet The Tools
       url: Meet_The_Tools.html
+    - output: web,pdf
+      title: Lesson 2 - Data Wrangling
+      url: Data_Cleaning_and_Visualization.html
     output: web
     title: ds_zero
   output: web

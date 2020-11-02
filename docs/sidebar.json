@@ -2,6 +2,7 @@
   "ds_zero": {
     "Overview": "/",
     "DS Zero Core": "core.html",
-    "Lesson 1 - Meet The Tools": "Meet_The_Tools.html"
+    "Lesson 1 - Meet The Tools": "Meet_The_Tools.html",
+    "Lesson 2 - Data Wrangling": "Data_Cleaning_and_Visualization.html"
   }
 }

@@ -13,9 +13,14 @@ This whole thing is built with NBDev. It should be up on https://johnowhitaker.g
 
 ## What are we learning?
 
-Data Science is
+I tend to define 'Data Science' as the process of taking data and processing that into something useful. This can be summarizing data in a way that generates insight. It can be using existing data to derive or infer something new. It can be learning how to make better decisions from records of the past. Such a broad definition would indicate that data science comes into play in all sorts of fields. Indeed, I believe that the techniques and more importantly the mindset of data science will be an incredibly useful tool in any career or situation, not just in the relatively small world of what we might term 'corporate' data science. 
+
+With that context in mind, the obvious question is: how would one learn Data Science? Where would you even begin? This course is designed as a partial answer to that question. We'll look at a few of the most common tools, solve some common problems and, hopefully, provide enough pf a starting point that you can begin working on your own projects. 
+
 
 ## The Plan
+
+I've split the content into individual 'lessons', which you can access from the left-hand menu. As you can see, we're only one lesson in! All feedback appreciated :)
 
 ### Lesson 1 - Meet the Tools
 
