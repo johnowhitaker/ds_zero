@@ -614,7 +614,7 @@ memory usage: 3.7+ MB
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4)-isna">4) isna<a class="anchor-link" href="#4)-isna"> </a></h4><p>I've mentioned missing values a few times. Pandas represents missing data with a special NaN object (np.NaN). This particular dataset doesn't have any missing data, but in general we can check if there is any by combining the <code>.isna()</code> function (which returns True or False for each value) with the <code>sum()</code> function which let's us tally the number of 'Trues' in each column to get the total number of missing values.</p>
+<h4 id="4)-isna">4) isna<a class="anchor-link" href="#4)-isna"> </a></h4><p>I've mentioned missing values a few times. Pandas represents missing data with a special NaN object (np.NaN). This particular dataset doesn't have any missing data*, but in general we can check if there is any by combining the <code>.isna()</code> function (which returns True or False for each value) with the <code>sum()</code> function which let's us tally the number of 'Trues' in each column to get the total number of missing values.</p>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ dtype: int64</pre>
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>With no missing values in any columns, we can move on to a deeper exploration of the data.</p>
+<p><em>WAIT A MINUTE!</em> *Did you catch anything looking at .sample() above? We might have some missing data after all - something we'll look at later in the lesson... For now let's move on and do some more exploring.</p>
 
 </div>
 </div>
