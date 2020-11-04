@@ -16,8 +16,14 @@ entries:
       title: Lesson 1 - Meet The Tools
       url: Meet_The_Tools.html
     - output: web,pdf
-      title: Lesson 2 - Data Wrangling
+      title: Lesson 2 - Data Cleaning and Visualization
       url: Data_Cleaning_and_Visualization.html
+    - output: web,pdf
+      title: Lesson 3 - Machine Learning
+      url: Machine_Learning.html
+    - output: web,pdf
+      title: Lesson 4 - Putting it all into practice
+      url: Practice_On_Zindi.html
     output: web
     title: ds_zero
   output: web
