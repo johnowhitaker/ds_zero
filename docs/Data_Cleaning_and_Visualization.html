@@ -997,7 +997,7 @@ dtype: int64</pre>
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Notice anything? On both axxes are a smattering of points. I'm no doctor, but I don't think a BMI of 0 sounds healthy - this may be missing data we should investigate further.</p>
+<p>Notice anything? On both axes are a smattering of points. I'm no doctor, but I don't think a BMI of 0 sounds healthy - this may be missing data we should investigate further.</p>
 
 </div>
 </div>
@@ -1330,10 +1330,44 @@ Name: education, dtype: int64</pre>
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Exercise">Exercise<a class="anchor-link" href="#Exercise"> </a></h2><p>Take a look at the <a href="https://zindi.africa/competitions/sendy-logistics-challenge">Sendy Logistics Challenge on Zindi</a>. You'll need to register on Zindi to join the competition and access the data, which comes as 5 separate files:</p>
+<ul>
+<li>Train.csv - is the dataset that you will use to train your model.</li>
+<li>Test.csv - is the dataset on which you will apply your model to.</li>
+<li>Riders.csv - contains unique rider Ids, number of orders, age, rating and number of ratings</li>
+<li>VariableDefinitions.csv - Definitions of variables in the Train, Test and Riders files</li>
+<li>SampleSubmission.csv - Shows the submission format (we'll look at this later, in lesson 4)</li>
+</ul>
+<p>1) Load and inspect the data from Train.csv. Any missing data? What is the target column?
+2) How common are the different vehicle types? Is there a difference in the trip time or distance depending on vehicle type?
+3) What columns are highly correlated (positively or negatively) with the target? Plot some scatter plots to visualize the relationships</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Dates">Dates<a class="anchor-link" href="#Dates"> </a></h2>
 </div>
 </div>
 </div>
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Missing-Data">Missing Data<a class="anchor-link" href="#Missing-Data"> </a></h2>
